@@ -1,0 +1,115 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+
+
+@import
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/variables",
+  {% endif %}
+
+  "bootstrap",
+
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
+  {% endif %}
+
+  "syntax-highlighting",
+  "typeahead"
+;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: $navbar-height + $navbar-margin-bottom;
+  margin-bottom: 46px;
+}
+
+.navbar-brand{
+  img{
+    margin: -$navbar-padding-vertical 0;
+    height: $navbar-height;
+    padding: 10px 0;
+  }
+}
+
+
+.header-container {
+  background-color: black;
+  background: url('../img/bg.jpg') no-repeat 50% 0;
+  color: #fff;
+
+  h1 {
+    color: #fff;
+  }
+  // background-attachment: fixed;
+  background-size: cover;
+  background-position: center 36%;
+  margin-top: -37px;
+}
+.navbar-container {
+  font-size: 16px;
+}
+.page-content {
+  padding-bottom: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 46px;
+  padding-top: 10px;
+  background-color: $gray-lighter;
+  color: $gray-dark;
+}
+
+.post-list-container {
+  li a.active {
+    font-weight: bold;
+  }
+}
+
+.navbar-form .has-feedback .form-control-feedback{
+  top:10px
+}
+
+///
+// Fix position of markdown anchors relative to 75px top nav.
+// Note that h1 is intentionally omitted to avoid issues with
+// preventing clicks on the bottom links in the doc page list,
+// when that list is stacked on top of the markdown content on small screens.
+// h1 is left out because it is meant to appear only at the top of the markdown.
+
+h2[id]:before,
+h3[id]:before,
+h4[id]:before,
+h5[id]:before,
+h6[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+
+///
+// Make markdown anchor links green, transparent until hovered
+
+a .fa.fa-gear {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  font-size: 80%;
+  margin-left: 0.25em;
+  color: #9F4A67;
+}
+
+a .fa.fa-gear:hover {
+  opacity: 1.0
+}

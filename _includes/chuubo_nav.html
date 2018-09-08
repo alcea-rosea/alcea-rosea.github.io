@@ -1,0 +1,25 @@
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+{% for section in site.data.chuubo %}
+  <div class="panel panel-default">
+    {% assign section_url = section.index | prepend:"/chuubo/" | append:"/" %}
+    {% assign p = site.chuubo | where:"url", section_url | first %}
+    <ul class="list-group">
+      <h4 class="panel-title">
+        <a class="list-group-item {% if section_url == page.url %}active{% endif %}" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
+      </h4>
+    </ul>
+    
+    {% if page.url contains section_url %}
+    <div id="collapse-{{forloop.index}}" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        {% for item in section.docs %}
+          {% assign item_url = item | prepend:section_url | append:"/" %}
+          {% assign p = site.chuubo | where:"url", item_url | first %}
+          <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>

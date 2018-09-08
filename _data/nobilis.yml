@@ -1,0 +1,9 @@
+- title: Getting Started
+  index: start
+  docs: []
+
+- title: Mechanics
+  index: mechanics
+  docs:
+  - bonds
+  - afflictions
