@@ -1,7 +1,7 @@
 ---
 ---
 [
-{% for section in site.data.nobilis %}
+{% for section in site.data.nobilis.sections %}
   {% assign section_url = section.index | prepend:"/nobilis/" | append:"/" %}
   {% assign p = site.nobilis | where:"url", section_url | first %}
   {

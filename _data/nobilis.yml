@@ -1,9 +1,16 @@
-- title: Getting Started
-  index: start
-  docs: []
+sections:
+  - title: Getting Started
+    index: start
+    docs: []
 
-- title: Mechanics
-  index: mechanics
-  docs:
-  - bonds
-  - afflictions
+  - title: Mechanics
+    index: mechanics
+    docs:
+    - bonds
+    - afflictions
+
+refs:
+  Bond:        /nobilis/mechanics/bonds/
+  Bonds:       /nobilis/mechanics/bonds/
+  Affliction:  /nobilis/mechanics/afflictions/
+  Afflictions: /nobilis/mechanics/afflictions/

@@ -1,5 +1,5 @@
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-{% for section in site.data.nobilis %}
+{% for section in site.data.nobilis.sections %}
   <div class="panel panel-default">
     {% assign section_url = section.index | prepend:"/nobilis/" | append:"/" %}
     {% assign p = site.nobilis | where:"url", section_url | first %}

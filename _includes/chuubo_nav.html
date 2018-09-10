@@ -1,5 +1,5 @@
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-{% for section in site.data.chuubo %}
+{% for section in site.data.chuubo.sections %}
   <div class="panel panel-default">
     {% assign section_url = section.index | prepend:"/chuubo/" | append:"/" %}
     {% assign p = site.chuubo | where:"url", section_url | first %}

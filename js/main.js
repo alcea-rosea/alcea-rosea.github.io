@@ -1,7 +1,47 @@
 $(function() {
+    // // Try to fetch PDF locations from cookies.
+    // var nobilisPDF = document.cookie.match('(^|;) ?nobilisPDF=([^;]*)(;|$)');
+    // if(nobilisPDF)
+    //   state.nobilisPDF = nobilisPDF[2];
 
-    console.log("searchUrl")
-    console.log(searchUrl)
+    // Transform some parts of the text in the page.
+    const transformText = function() {
+        var html = $(this).html()
+
+        // Turn page numbers into links (that don't currently do anything).
+        html = html.replace(/\s*\[p(\d+)\]([\.\?\!:;,])?/g, function(match, page, punct) {
+            return (punct || '') + '<sup><a class="pagenum" href="#"> [p' + page + ']</a></sup>';
+        });
+
+        // Turn refs into links to the referenced page.
+        Object.entries(state.refs).forEach(function(arg) {
+            var key   = arg[0];
+            var value = arg[1];
+
+            const pattern = RegExp('\\b' + key + '\\b', 'g');
+            html = html.replace(pattern, function(match) {
+                return '<a href="' + value + '">' + match + '</a>'
+            });
+        });
+
+        // Save changes to the HTML of the selected element.
+        $(this).html(html);
+    };
+    $('p').each(transformText);
+    $('li').each(transformText);
+
+    $(".pagenum").click(function(event) {
+        event.preventDefault();
+
+        // var input = $(document.createElement('input'));
+        // input.attr('type', 'file');
+        // // add onchange handler if you wish to get the file :)
+        // input.trigger('click'); // opening dialog
+        // input.on('change', function(event) {
+        //     state.nobilisPDF = this.value;
+        //     document.cookie = 'nobilisPDF=' + state.nobilisPDF + ';path=/';
+        // });
+    });
 
     // $('.collapse').collapse('hide');
     $('.list-group-item.active').parent().parent('.collapse').collapse('show');
@@ -12,7 +52,7 @@ $(function() {
         // datumTokenizer: Bloodhound.tokenizers.whitespace,
         queryTokenizer: Bloodhound.tokenizers.whitespace,
 
-        prefetch: searchUrl
+        prefetch: state.searchUrl
     });
 
     $('#search-box').typeahead({
