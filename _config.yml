@@ -5,7 +5,7 @@ description: >
   A Hollyhock Quick Reference.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://alcea-rosea.github.io/ # the base hostname & protocol for your site
+url: https://alcea-rosea.github.io # the base hostname & protocol for your site
 git_address: https://github.com/alcea-rosea/alcea-rosea.github.io
 git_edit_address: https://github.com/alcea-rosea/alcea-rosea.github.io/blob/master
 
