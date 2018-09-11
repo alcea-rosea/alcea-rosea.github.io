@@ -1,16 +1,11 @@
 $(function() {
-    // // Try to fetch PDF locations from cookies.
-    // var nobilisPDF = document.cookie.match('(^|;) ?nobilisPDF=([^;]*)(;|$)');
-    // if(nobilisPDF)
-    //   state.nobilisPDF = nobilisPDF[2];
-
     // Transform some parts of the text in the page.
     const transformText = function() {
         var html = $(this).html()
 
         // Turn page numbers into links (that don't currently do anything).
         html = html.replace(/\s*\[p(\d+)\]([\.\?\!:;,])?/g, function(match, page, punct) {
-            return (punct || '') + '<sup><a class="pagenum" href="#"> [p' + page + ']</a></sup>';
+            return (punct || '') + '<sup><a href="#" class="pagenum ' + page + '"> [p' + page + ']</a></sup>';
         });
 
         // Turn refs into links to the referenced page.
@@ -30,17 +25,47 @@ $(function() {
     $('p').each(transformText);
     $('li').each(transformText);
 
+    // Create a function to change the page on the nobilisPDF window.
+    const nobilisPDFSetPage = function(pageNum) {
+        // Nobilis page numbers are off by 1 page from actual in the PDF.
+        pageNum = (parseInt(pageNum) + 1).toString();
+
+        if (state.nobilisPDF && !state.nobilisPDF.closed)
+        {
+            state.nobilisPDF.postMessage(pageNum, window.location.origin);
+            state.nobilisPDF.focus();
+        }
+        else
+        {
+            window.open("/nobilis/pdf", "nobilisPDF", "x");
+            state.pendingToNobilisPDF = pageNum;
+        }
+    };
+
+    // When receiving an event from another window,
+    // if the message is "nobilisPDF", use it to capture the window handle
+    // of our child window so we can send it page number messages.
+    window.addEventListener("message", function(event) {
+        // Ignore messages from other origins.
+        if (event.origin !== window.location.origin)
+            return;
+
+        if (event.data == "nobilisPDF" && !state.nobilisPDF)
+        {
+            state.nobilisPDF = event.source;
+
+            if (state.pendingToNobilisPDF)
+                nobilisPDFSetPage(state.pendingToNobilisPDF);
+        }
+    }, false);
+
+    // When a page number link is clicked, get the page number from
+    // the class list and update the page in the child window.
     $(".pagenum").click(function(event) {
         event.preventDefault();
 
-        // var input = $(document.createElement('input'));
-        // input.attr('type', 'file');
-        // // add onchange handler if you wish to get the file :)
-        // input.trigger('click'); // opening dialog
-        // input.on('change', function(event) {
-        //     state.nobilisPDF = this.value;
-        //     document.cookie = 'nobilisPDF=' + state.nobilisPDF + ';path=/';
-        // });
+        const pageNum = event.target.classList[1];
+        nobilisPDFSetPage(pageNum);
     });
 
     // $('.collapse').collapse('hide');
