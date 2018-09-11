@@ -8,9 +8,14 @@ sections:
     docs:
     - bonds
     - afflictions
+    - strike
+    - auctoritas
 
 refs:
   Bond:        /nobilis/mechanics/bonds/
   Bonds:       /nobilis/mechanics/bonds/
   Affliction:  /nobilis/mechanics/afflictions/
   Afflictions: /nobilis/mechanics/afflictions/
+  Strike:      /nobilis/mechanics/strike/
+  Auctoritas:  /nobilis/mechanics/auctoritas/
+  Auctorita:   /nobilis/mechanics/auctoritas/

@@ -27,6 +27,8 @@ Just like an Affliction, a Bond is any of the following kinds of statements [p16
 - Temporarily applied by suffering a Surface Wound [p324].
   - The Bond rating is typically 2 when inflicted by a lesser miracle, or 4 for a greater miracle, but the HG may choose any Bond rating 1-5.
 
+- Each Setting Property of the World or Chancel that you're in should be treated as a Bond with a rating of 2 while in that particular environment [p315].
+
 ### When do Bonds come into play?
 
 - Add Strike to a miraculous action equal to the rating of the highest relevant Bond [p163].
@@ -44,7 +46,8 @@ Just like an Affliction, a Bond is any of the following kinds of statements [p16
   - For mortal characters, the reward is usually points of Will (maximum equal to the rating of the Bond).
   - Because Bonds are player-controlled, you can get yourself into trouble with your Bond at any time you choose [p165].
 
-- You can sometimes use your Bonds to prevent character death [p164]
+- You can sometimes use your Bonds to prevent character death [p164].
+  - Surviving off of a Setting Property as if it were a Bond may taint you with the nature of that environment, which manifests as a Wound with an Affliction that describes your dependence on that environment [p315].
 
 - When a Bond is non-trivially broken during play, the character takes a Wound [p165].
   - The maximum possible Wound is determined by the Bond rating [p165]:

@@ -53,7 +53,12 @@ Just like a Bond, an Affliction is any of the following kinds of statements [p16
 
 - When you get someone into trouble with their Bonds or Afflictions, force them to break a Bond, or make their Affliction paradoxical, you can perform the Nettle Rite to gain the same amount of MP they gained for their trouble [p340].
 
+### How can I overcome an Affliction?
+
+- Acting in such a way that ignores an Affliction on yourself or others requires a miracle with sufficient Strike to overcome the Auctoritas protecting the Affliction - that is, you must have at least as many points of Strike as the rating of the Affliction. [p325]
+
 ### What about edge cases?
 
 - When two Afflictions are in direct conflict, they both fail, regardless of their ratings [p168].
-  - A player may spend MP or invoke a Bond to gain Strike and break the tie.
+  - This happens because each Affliction is protected by an Auctoritas, and any miracles described by the HG on behalf of an Affliction will not include the Strike that's needed to negate the Auctorita.
+  - The player for an Affliction may spend MP or invoke a Bond to attempt to gain enough Strike to overcome the opposing Auctoritas.
