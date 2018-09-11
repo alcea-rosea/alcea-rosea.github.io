@@ -45,6 +45,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
   @include box-shadow(none);
 }
 
+// Top-level list items =================================================================
+
+div > ul > li {
+  margin-top: ($line-height-computed / 2);
+  margin-bottom: ($line-height-computed / 2);
+}
+
 // Typography =================================================================
 
 .text-primary,
