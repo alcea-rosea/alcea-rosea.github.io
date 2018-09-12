@@ -4,8 +4,8 @@ $(function() {
         var html = $(this).html()
 
         // Turn page numbers into links (that don't currently do anything).
-        html = html.replace(/\s*\[p(\d+)\]([\.\?\!:;,])?/g, function(match, page, punct) {
-            return (punct || '') + '<sup><a href="#" class="pagenum ' + page + '"> [p' + page + ']</a></sup>';
+        html = html.replace(/\s*\[p(\d+)\]/g, function(match, num) {
+            return '<sup><a href="#" class="pagenum ' + num + '">' + match + '</a></sup>';
         });
 
         // Turn refs into links to the referenced page.
