@@ -10,6 +10,8 @@ sections:
     - afflictions
     - strike
     - auctoritas
+    - projects
+    - destiny
 
 refs:
   Bond:        /nobilis/mechanics/bonds/
@@ -19,3 +21,6 @@ refs:
   Strike:      /nobilis/mechanics/strike/
   Auctoritas:  /nobilis/mechanics/auctoritas/
   Auctorita:   /nobilis/mechanics/auctoritas/
+  Project:     /nobilis/mechanics/projects/
+  Projects:    /nobilis/mechanics/projects/
+  Destiny:     /nobilis/mechanics/destiny/
