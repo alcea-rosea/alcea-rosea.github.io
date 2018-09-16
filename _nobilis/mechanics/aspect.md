@@ -24,11 +24,11 @@ Aspect is the trait representing the capacity of a miraculous character to bend 
 
 ### How do Aspect Miracles relate to other Miracles?
 
-- An Aspect 3+ Miracle can be used by a character to quickly familiarize themselves with a specific instance of a collection of Anchors. [p208]
-
 - A single Aspect Miracle action can be comprised of a range of related sub-actions in one fluid motion. [p304]
 
 - You can perform Aspect Miracles alongside other kinds of sustained Miracles (or vice versa) to wield their effects with supernatural prowess. [p305]
+
+- An Aspect 3+ Miracle can be used by a character to quickly familiarize themselves with a specific instance of a collection of Anchors. [p208]
 
 ### How else does Aspect affect a character?
 

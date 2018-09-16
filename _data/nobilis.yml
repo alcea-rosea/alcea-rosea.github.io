@@ -7,6 +7,7 @@ sections:
     index: mechanics
     docs:
     - aspect
+    - domain
     - bonds
     - afflictions
     - auctoritas
@@ -16,6 +17,7 @@ sections:
 
 refs:
   Aspect:      /nobilis/mechanics/aspect/
+  Domain:      /nobilis/mechanics/domains/
   Bond:        /nobilis/mechanics/bonds/
   Bonds:       /nobilis/mechanics/bonds/
   Affliction:  /nobilis/mechanics/afflictions/
