@@ -1,6 +1,6 @@
 ---
 title: Auctoritas
-permalink: /nobilis/mechanics/auctoritas/
+permalink: /nobilis/miracles/auctoritas/
 ---
 
 # Auctoritas

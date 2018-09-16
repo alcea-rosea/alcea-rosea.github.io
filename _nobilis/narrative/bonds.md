@@ -1,6 +1,6 @@
 ---
 title: Bonds
-permalink: /nobilis/mechanics/bonds/
+permalink: /nobilis/narrative/bonds/
 ---
 
 # Bonds

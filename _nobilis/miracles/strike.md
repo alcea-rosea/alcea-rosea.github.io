@@ -1,6 +1,6 @@
 ---
 title: Strike
-permalink: /nobilis/mechanics/strike/
+permalink: /nobilis/miracles/strike/
 ---
 
 # Strike

@@ -1,6 +1,6 @@
 ---
 title: Projects
-permalink: /nobilis/mechanics/projects/
+permalink: /nobilis/narrative/projects/
 ---
 
 # Projects

@@ -1,6 +1,6 @@
 ---
 title: Domain
-permalink: /nobilis/mechanics/domain/
+permalink: /nobilis/miracles/domain/
 ---
 
 # Domain

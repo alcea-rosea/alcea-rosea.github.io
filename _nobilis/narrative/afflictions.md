@@ -1,6 +1,6 @@
 ---
 title: Afflictions
-permalink: /nobilis/mechanics/afflictions/
+permalink: /nobilis/narrative/afflictions/
 ---
 
 # Afflictions

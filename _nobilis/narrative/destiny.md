@@ -1,6 +1,6 @@
 ---
 title: Destiny
-permalink: /nobilis/mechanics/destiny/
+permalink: /nobilis/narrative/destiny/
 ---
 
 # Destiny

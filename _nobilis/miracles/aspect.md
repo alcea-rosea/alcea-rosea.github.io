@@ -1,6 +1,6 @@
 ---
 title: Aspect
-permalink: /nobilis/mechanics/aspect/
+permalink: /nobilis/miracles/aspect/
 ---
 
 # Aspect
