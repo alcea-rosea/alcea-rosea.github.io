@@ -24,6 +24,7 @@ $(function() {
     };
     $('p').each(transformText);
     $('li').each(transformText);
+    $('td').each(transformText);
 
     // Create a function to change the page on the nobilisPDF window.
     const nobilisPDFSetPage = function(pageNum) {
