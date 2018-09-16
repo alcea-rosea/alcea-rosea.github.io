@@ -6,6 +6,7 @@ sections:
   - title: Mechanics
     index: mechanics
     docs:
+    - aspect
     - bonds
     - afflictions
     - auctoritas
@@ -14,6 +15,7 @@ sections:
     - destiny
 
 refs:
+  Aspect:      /nobilis/mechanics/aspect/
   Bond:        /nobilis/mechanics/bonds/
   Bonds:       /nobilis/mechanics/bonds/
   Affliction:  /nobilis/mechanics/afflictions/
