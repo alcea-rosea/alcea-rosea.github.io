@@ -1,12 +1,28 @@
 ---
-title: Getting Started
+title: Nobilis
 permalink: /nobilis/start/
 redirect_from: /nobilis/index.html
 ---
 
-# Getting Started
+# Nobilis
 
-{% include doc_stub.html %}
+This is a quick reference for the core book of Nobilis 3rd Edition (titled *[Nobilis: The Essentials, Volume 1
+](https://www.drivethrurpg.com/product/89003/Nobilis-The-Essentials-Volume-1)*).
+
+# How to use this site
+
+The intent of this site is not to reproduce all of the material in the book, but to summarize and highlight information that you might want to have close at hand when running a game of Nobilis with your friends, so that you don't have to slow down play or use a lesser divination to search out the relevant pages.
+
+Each major concept in the game has (or will have, when it's complete) an associated summary page in this quick reference. When reading those summaries, you'll find page number references that look like this: [p85]
+
+If you own the PDF for *[Nobilis: The Essentials, Volume 1
+](pdf)*, you can click a page number link, select the PDF file from your local machine, and the site will show you the referenced page in that browser window. If you own only a physical copy, you'll have to settle for thumbing through the book by hand. If you don't own the book at all, what are you still doing here? Go out and [buy it](pdf), then come back after you've given it a first read.
+
+Don't worry, I'll wait!
+
+<br>
+
+[pdf]: https://www.drivethrurpg.com/product/89003/Nobilis-The-Essentials-Volume-1
 
 {% include not_standalone.html %}
 
