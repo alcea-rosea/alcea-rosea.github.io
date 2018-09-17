@@ -8,6 +8,7 @@ sections:
     docs:
     - aspect
     - domain
+    - persona
     - auctoritas
     - strike
 
@@ -22,6 +23,7 @@ sections:
 refs:
   Aspect:      /nobilis/miracles/aspect/
   Domain:      /nobilis/miracles/domain/
+  Persona:     /nobilis/miracles/persona/   
   Bond:        /nobilis/narrative/bonds/
   Bonds:       /nobilis/narrative/bonds/
   Affliction:  /nobilis/narrative/afflictions/

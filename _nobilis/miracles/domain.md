@@ -40,10 +40,10 @@ Domain is the trait representing the capacity of a miraculous character to manip
   - Each Domain rating must be at least level 1.
   - The Domain rating of each "secondary" Estate must be equal or less than that of the "primary" Estate.
 
-- Taking a secondary Domain of "things of my Chancel" is a common way to increase a character's power inside their Chancel. [p246]
+- Taking a secondary Estate of "things of my Chancel" is a common way to increase a character's power inside their Chancel. [p246]
 
 - Imperators always have multiple Estates, using almost the same rules. [p260]
-  - The only difference is that they are allowed to have Domain level 0.
+  - The only difference is that they are allowed to have Domain and Persona level 0 for their Estates.
 
 ### Can characters other than Powers have Estates?
 
