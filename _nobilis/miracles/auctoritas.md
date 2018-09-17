@@ -5,7 +5,7 @@ permalink: /nobilis/miracles/auctoritas/
 
 # Auctoritas
 
-Auctoritas (pronounced: "ah-ook-TOR-ee-tahs", plural: Auctorita) protects something from miracles, requiring the hostile miracle to add extra power in the form of Strike, regardless of the miracle level [CITATION NEEDED]. When a hostile miracle has enough Strike points in it to match the rating of the Auctoritas, the Auctoritas is ignored; otherwise, the hostile miracle fails to penetrate the protection of the Auctoritas, and the thing or property protected by it is preserved. [p109]
+Auctoritas (pronounced: "owk-TOHR-ee-tahs", plural: Auctorita) protects something from miracles, requiring the hostile miracle to add extra power in the form of Strike, regardless of the miracle level [CITATION NEEDED]. When a hostile miracle has enough Strike points in it to match the rating of the Auctoritas, the Auctoritas is ignored; otherwise, the hostile miracle fails to penetrate the protection of the Auctoritas, and the thing or property protected by it is preserved. [p109]
 
 ### Where do Auctorita come from?
 
