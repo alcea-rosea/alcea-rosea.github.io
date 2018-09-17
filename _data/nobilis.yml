@@ -21,16 +21,17 @@ sections:
     - destiny
 
 refs:
-  Aspect:      /nobilis/miracles/aspect/
-  Domain:      /nobilis/miracles/domain/
-  Persona:     /nobilis/miracles/persona/   
-  Bond:        /nobilis/narrative/bonds/
-  Bonds:       /nobilis/narrative/bonds/
-  Affliction:  /nobilis/narrative/afflictions/
-  Afflictions: /nobilis/narrative/afflictions/
-  Auctoritas:  /nobilis/miracles/auctoritas/
-  Auctorita:   /nobilis/miracles/auctoritas/
-  Strike:      /nobilis/miracles/strike/
-  Project:     /nobilis/narrative/projects/
-  Projects:    /nobilis/narrative/projects/
-  Destiny:     /nobilis/narrative/destiny/
+  Aspect:                /nobilis/miracles/aspect/
+  Domain:                /nobilis/miracles/domain/
+  Persona:               /nobilis/miracles/persona/
+  Bond:                  /nobilis/narrative/bonds/
+  Bonds:                 /nobilis/narrative/bonds/
+  Affliction:            /nobilis/narrative/afflictions/
+  Afflictions:           /nobilis/narrative/afflictions/
+  Auctorita:             /nobilis/miracles/auctoritas/
+  "Auctoritas(?! Magi)": /nobilis/miracles/auctoritas/
+  "Auctoritas Magister": /nobilis/miracles/auctoritas/#auctoritas-magister
+  Strike:                /nobilis/miracles/strike/
+  Project:               /nobilis/narrative/projects/
+  Projects:              /nobilis/narrative/projects/
+  Destiny:               /nobilis/narrative/destiny/
