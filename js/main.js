@@ -13,7 +13,7 @@ $(function() {
             var key   = arg[0];
             var value = arg[1];
 
-            const pattern = RegExp('\\b' + key + '\\b', 'g');
+            const pattern = RegExp('(?<!">)\\b' + key + '\\b(?!("|<\/a>))', 'g');
             html = html.replace(pattern, function(match) {
                 return '<a href="' + value + '">' + match + '</a>'
             });

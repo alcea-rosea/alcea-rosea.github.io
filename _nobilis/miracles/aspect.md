@@ -33,3 +33,16 @@ Aspect is the trait representing the capacity of a miraculous character to bend 
 ### How else does Aspect affect a character?
 
 - A character gets free points of Cool equal to the level of their Aspect trait. [p154]
+
+### What kinds of actions are outside the scope of Aspect?
+
+Aspect does not apply to the following kinds of actions:
+
+- Magic & Psychic Powers [p181]
+  - To do magic with Aspect, you need a relevant Gift or Anchor that can be "used" by you as a non-magical mundane action.
+
+- Social Interaction [p181]
+  - Aspect can't be used to make a conversation go the way you want it to, or to improve your Shine.
+
+- Immunity to Error [p181]
+  - Aspect can't be used to prevent yourself from doing something you later regret.

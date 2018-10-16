@@ -40,6 +40,7 @@ Just like an Affliction, a Bond is any of the following kinds of statements: [p1
   - Any one Bond can only claim one Anchor or collection of related Anchors at a time. [p209]
   - You can spend unallocated Bond points during play to claim more Anchors. [p209]
   - Claiming an additional Anchor when you have no more available Bonds will inflict a Wound on you, which gives a Wound-related Affliction or Bond relevant to the Anchor. [p209]
+  - You can take a Treasure-based Gift to have an Anchor-like relationship to a person or thing called a "Focus" without needing a relevant Bond. [p222]
 
 - When your Bond gives you trouble, or you strongly exemplify the Bond in play, you gain some MP. [p164]
   - The amount of MP is at the HG's discretion (minimum 1).

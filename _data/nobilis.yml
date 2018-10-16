@@ -9,6 +9,8 @@ sections:
     - aspect
     - domain
     - persona
+    - treasure
+    - anchors
     - auctoritas
     - strike
 
@@ -24,6 +26,17 @@ refs:
   Aspect:                /nobilis/miracles/aspect/
   Domain:                /nobilis/miracles/domain/
   Persona:               /nobilis/miracles/persona/
+  "Treasure Miracles":   /nobilis/miracles/treasure/#miracle-levels
+  "Treasure Miracle":    /nobilis/miracles/treasure/#miracle-levels
+  Treasure:              /nobilis/miracles/treasure/
+  "Ordinary Anchors":    /nobilis/miracles/anchors/#ordinary-anchors
+  "Ordinary Anchor":     /nobilis/miracles/anchors/#ordinary-anchors
+  "Wondrous Anchors":    /nobilis/miracles/anchors/#wondrous-anchors
+  "Wondrous Anchor":     /nobilis/miracles/anchors/#wondrous-anchors
+  "Miraculous Anchors":  /nobilis/miracles/anchors/#miraculous-anchors
+  "Miraculous Anchor":   /nobilis/miracles/anchors/#miraculous-anchors
+  Anchors:               /nobilis/miracles/anchors/
+  Anchor:                /nobilis/miracles/anchors/
   Bond:                  /nobilis/narrative/bonds/
   Bonds:                 /nobilis/narrative/bonds/
   Affliction:            /nobilis/narrative/afflictions/
